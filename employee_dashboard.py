@@ -22,7 +22,7 @@ import os
 from ques_bank_gen import gen_que
 
 # Set API Key for Google services
-api_key = "AIzaSyCkhwdytqyr039-BnhACY2RzexSUZZcwB4"
+api_key = "api.txt"
 os.environ["GOOGLE_API_KEY"] = api_key
 
 def employee_dashboard():
