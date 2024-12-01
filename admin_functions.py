@@ -20,12 +20,12 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-api_key = "AIzaSyCkhwdytqyr039-BnhACY2RzexSUZZcwB4"
+api_key = "api.txt"
 os.environ["GOOGLE_API_KEY"] = api_key
 
-GMAIL_USER = "vtu19288@veltech.edu.in"
-GMAIL_PASSWORD = "bics fhoc slys wjyp"
-TECHNICAL_TEAM_EMAIL = "pranayvardhan1908@gmail.com"
+GMAIL_USER = ""
+GMAIL_PASSWORD = ""
+TECHNICAL_TEAM_EMAIL = ""
 
 
 def admin_dashboard():
@@ -379,8 +379,8 @@ def issue_resolution():
 
 
 def notify_user(email, message):
-    sender_email = "vtu19288@veltech.edu.in"  # Replace with your sender email
-    sender_password = "bablu123"  # Replace with your sender email password
+    sender_email = ""  # Replace with your sender email
+    sender_password = ""  # Replace with your sender email password
 
     # Create the email message
     msg = MIMEMultipart()
