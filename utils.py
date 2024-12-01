@@ -17,7 +17,7 @@ import docx2txt
 from pptx import Presentation
 import os
 # Set API key for Google Gemini
-api_key = "AIzaSyCkhwdytqyr039-BnhACY2RzexSUZZcwB4"  # Replace with your actual API key
+api_key = "api.txt"  # Replace with your actual API key
 os.environ["GOOGLE_API_KEY"] = api_key
 
 def generate_questions(api_key, num_questions=10, difficulty="easy", text_prompt=""):
