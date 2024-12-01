@@ -52,8 +52,8 @@ def send_otp(email):
         body = f"Your OTP code is {otp}. It is valid for 10 minutes."
         
         # Setup your email server (Example: Gmail)
-        sender_email = "vtu19288@veltech.edu.in"  # Update with your sender email
-        sender_password = "bics fhoc slys wjyp"  # Use an app password if 2FA is enabled
+        sender_email = ""  # Update with your sender email
+        sender_password = ""  # Use an app password if 2FA is enabled
 
         msg = MIMEText(body)
         msg['Subject'] = subject
