@@ -14,7 +14,7 @@ from PIL import Image
 import pandas as pd
 from ques_bank_gen import gen_que
 
-api_key = "AIzaSyCkhwdytqyr039-BnhACY2RzexSUZZcwB4"
+api_key = "api.txt"
 os.environ["GOOGLE_API_KEY"] = api_key
 
 def extract_text_from_pdf(file):
